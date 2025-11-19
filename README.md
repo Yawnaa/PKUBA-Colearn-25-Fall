@@ -109,7 +109,9 @@
 | [Security/henrymartin262](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/Security/henrymartin262.md) |   | | | | | | | |
 | [Onchain-data/donnyqiu](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/Onchain-data/donnyqiu.md) |   | | | | | | | |
 | [DeFi/Lucas-gs9](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/DeFi/Lucas-gs9.md) |   | | | | | | | |
+| [Security/0xTyche](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/Security/0xTyche.md) | ✅ | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
