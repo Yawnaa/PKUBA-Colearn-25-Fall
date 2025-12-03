@@ -19,8 +19,8 @@ timezone: UTC+8
 
 ### 2025.12.1
 
-#### 哈希
-- 对于hash函数 $H(x)$
+ 哈希
+  对于hash函数 $H(x)$
 	- sha: Secure Hash Algorithm
 	- 有以下性质: 
 		- collision resistance:
@@ -42,7 +42,7 @@ timezone: UTC+8
 			- H(block header) <= target
 	- 有上述可知, 找到x很难, 但是验证H(x)很容易:
 		- 故: difficult to solve but easy to verify
-#### 签名:
+ 签名:
 - 椭圆曲线数字签名:
 	- 私钥签名后, 只有公钥能验证签名的有效性
 	- 私钥无法从公钥和签名中推出,所以比较安全
@@ -110,7 +110,7 @@ public:
 	- 如果可以顺利执行, 那么成功了
 
 ### 2025.12.3
-#### Merkle tree
+ Merkle tree
 - 思路和binary tree 类似, 只是指针还是用了  hash pointer
 
 - 一笔交易产生时, 各部分的作用:
