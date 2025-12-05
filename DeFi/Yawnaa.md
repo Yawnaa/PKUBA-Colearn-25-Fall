@@ -72,7 +72,7 @@ Follow-Up：
 
 关于 Transcation 建议理解的字段包括：
 
-- nonce
+- nonce 一个由交易发送者发出的交易序列号，用于确保交易顺序和防止重放攻击。
 - from / to
 - input (call data)
 - gas / gasPrice
