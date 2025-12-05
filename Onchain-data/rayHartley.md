@@ -16,10 +16,17 @@ timezone: UTC+8
 
 <!-- Content_START -->
 
-### 2025.07.11
 
-笔记内容
+### 2025.12.03
 
-### 2025.07.12
+## week1
+### remix 部署成功
+<img width="361" height="111" alt="截屏2025-12-04 21 24 28" src="https://github.com/user-attachments/assets/7edf00d6-39e8-428f-82d9-9d8c06ae24d3" />
+
+## week3 
+### 使用 go-ethereum 读取链上数据
+<img width="792" height="165" alt="image" src="https://github.com/user-attachments/assets/0d9efd64-f55e-41c1-bbbb-cf502d2fd376" />
+
+
 
 <!-- Content_END -->
