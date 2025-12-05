@@ -102,7 +102,7 @@
 | ------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | [DeFi/CauchyK9](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/DeFi/CauchyK9.md) | ✅ | ⭕️ |   | | | | | |
 | [DeFi/miyosep](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/DeFi/miyosep.md) | ⭕️ | ✅ |   | | | | | |
-| [Onchain-data/Afterglow36](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/Onchain-data/Afterglow36.md) | ✅ | ✅ |   | | | | | |
+| [Onchain-data/Afterglow36](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/Onchain-data/Afterglow36.md) | ✅ | ✅ | ✅ | | | | | |
 | [Onchain-data/ai0415](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/Onchain-data/ai0415.md) | ⭕️ | ⭕️ |   | | | | | |
 | [Security/henrymartin262](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/Security/henrymartin262.md) | ✅ | ⭕️ |   | | | | | |
 | [Onchain-data/donnyqiu](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/Onchain-data/donnyqiu.md) | ✅ | ✅ | ✅ | | | | | |
@@ -125,6 +125,7 @@
 | [DeFi/pandmonkey](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/DeFi/pandmonkey.md) | ⭕️ | ⭕️ | ✅ | | | | | |
 | [DeFi/Yawnaa](https://github.com/qingoba/PKUBA-Colearn-25-Fall/blob/main/DeFi/Yawnaa.md) | ⭕️ | ⭕️ | ✅ | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
