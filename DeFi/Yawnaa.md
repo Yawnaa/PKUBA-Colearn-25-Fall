@@ -23,4 +23,20 @@ timezone: UTC+8
 
 ### 2025.07.12
 
+### 2025.12.4
+
+1.下载go
+
+![image-20251204125513243](C:\Users\yawn\AppData\Roaming\Typora\typora-user-images\image-20251204125513243.png)
+
+2.了解了以太坊运行机制
+
+3.运行第一个go程序
+
+![image-20251204131052163](C:\Users\yawn\AppData\Roaming\Typora\typora-user-images\image-20251204131052163.png)
+
+ 4.安装 go-ethereum 库
+
+![image-20251204133143857](C:\Users\yawn\AppData\Roaming\Typora\typora-user-images\image-20251204133143857.png)
+
 <!-- Content_END -->
