@@ -10,6 +10,7 @@ timezone: UTC+8
 1. 自我介绍:我是元培学院数学方向的金柱衡，这次新加入了技术部，平时对密码学感兴趣。我报名Defi合约组
 2. 你认为你会完成这次共学小组吗？:会，可以完成。
 3. 你的联系方式（Wechat or Telegram）:  wechat:Juhyeongkim5627; telegram:miyomiyo789
+4. 交易哈希：0x7757209b220ad863ade4688cc3bdbe08dc24c78799ee7991bf8d7a085ca81ddf
 
 ## Notes
 
