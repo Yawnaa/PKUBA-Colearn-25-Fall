@@ -405,4 +405,74 @@ value: 99978999999706000
 receipt status: 1
 logs: 0
 ```
+
+
+#### Follow Up - 理解 block, transaction, receipt 的结构
+
+关于 Block 建议理解的字段包括：
+
+number 区块高度，区块链区块是由0向上递增
+hash 当前区块唯一的id，整个区块内容（头 + 交易 + 状态根）做 Keccak256 哈希后的结果。
+parentHash 父区块哈希
+```
+Block N:
+  hash = H(N)
+Block N+1:
+  parentHash = H(N)
+# 为什么不是 parentHash = H(N) 这是由于 block N + 1 块的时候还算不出 H(N+1)
+```
+timestamp 时间戳
+gasUsed / gasLimit 使用的gas和gas限制
+transactions 该区块包含的交易列表
+Follow-Up：
+
+为何 parentHash 能形成区块链？
+
+
+gasLimit 如何影响合约执行
+- 每个交易都会声明：
+gasLimit = 我最多愿意烧多少计算费
+
+
+- 区块本身也有：
+block.gasLimit = 这个区块最多容纳多少计算量
+
+
+- 执行时规则是：
+交易消耗 gas ≤ 交易 gasLimit ≤ 区块 gasLimit
+
+
+关于 Transcation 建议理解的字段包括：
+
+nonce 某个地址发出的第 N 笔交易
+from / to 发送方/接收方
+input (call data) 合约调用的“原始指令数据”
+gas / gasPrice 你愿意为这笔交易最多烧多少算力 & 单价
+value 转账的 ETH 数量
+type (legacy, EIP-1559) 交易类型（以太坊升级后的分类）
+| type | 含义                |
+| ---- | ----------------- |
+| 0    | legacy 交易         |
+| 1    | EIP-2930          |
+| 2    | ✅ EIP-1559（现在最主流） |
+
+#### Follow-Up：
+
+什么是 ABI ？
+- ABI = 合约函数的“身份证说明书”  
+
+一笔交易最终执行逻辑是如何解析 input 的
+1. input[0:4]  → 函数选择器
+2. 用 ABI 找到函数签名
+3. 剩余 input → 按 ABI 解码参数
+4. EVM 执行目标合约函数
+  
+关于 Receipt 建议理解的字段包括:
+
+
+status 交易状态：判断交易是否成功
+logs 合约事件日志
+contractAddress 合约创建地址
+
+
 <!-- Content_END -->
